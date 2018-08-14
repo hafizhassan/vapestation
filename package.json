@@ -40,7 +40,13 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-geolocation": {}
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-ionic": {
+        "APP_ID": "c862344b",
+        "CHANNEL_NAME": "Testing",
+        "UPDATE_METHOD": "background|auto|none",
+        "MAX_STORE": "2"
+      }
     }
   }
 }
